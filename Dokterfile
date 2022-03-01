@@ -1,0 +1,14 @@
+baris (8 sloc)  231 Byte
+DARI nikolaik/python-nodejs:python3.10-nodejs17
+JALANKAN apt-get update && apt-get upgrade -y
+JALANKAN apt-get install ffmpeg -y
+SALIN . /aplikasi/
+WORKDIR /aplikasi/
+JALANKAN pip3 install -U pip
+JALANKAN pip3 install -U -r requirements.txt
+CMD python3 -m Musik
+© 2022 GitHub, Inc.
+Ketentuan
+Pribadi
+Keamanan
+Status
